@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tg-finance-bot"
+version = "0.1.0"
+description = "telegram finance bot"
+authors = ["Nikita Mikolaichuk <knopka420@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tg_finance_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^20.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
